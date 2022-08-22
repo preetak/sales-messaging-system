@@ -85,4 +85,34 @@ REPORT after 50 messages which has adjustments made for each sales details:
 2022-08-21 17:53:57.753  INFO 7286 --- [ntainer#0-0-C-1] c.g.s.consumer.service.SalesService      : Adjustment: 2.0
 2022-08-21 17:53:57.754  INFO 7286 --- [ntainer#0-0-C-1] c.g.s.consumer.service.SalesService      : Operation used for Adjustment: ADD
 
+SAMPLE REQUESTS Corresponding to the 3 categories of Message Types:
+
+1. Request #1:
+{
+    "messageType":"TYPE1",
+    "salesNumber":"1" ,
+    "productType":"P1",
+    "value":"10.76"
+}
+
+2. Request #2:
+{
+ 	"messageType":"TYPE2",
+        "salesNumber":"2",
+	"productType":"P1",
+	"value":"10" ,
+	"numberSold": "5"
+}
+
+3. Request #3:
+
+{
+    "messageType":"TYPE3",
+    "salesNumber":"3" ,
+    "productType":"P1",
+    "operation": "ADD",
+    "adjustment": "2"
+}
+
+
 
