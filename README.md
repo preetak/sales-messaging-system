@@ -6,6 +6,8 @@ This is for the Sales Messaging System.
 
 ### Running the projects on your machine
 
+- install Docker on your machine. (I have installed Docker on my Mac OS for this work.)
+
 - clone this public repo with the command : 'git clone https://github.com/preetak/sales-messaging-system.git' to your local working directory
 
 - both projects contain a docker-compose.yml
